@@ -1,0 +1,293 @@
+/*html, body {
+	height: 100%;
+}
+*/
+/*#wrapper {
+	background-image: url("images/bg_body.jpg");
+}*/
+
+nav, body {
+	display: block;
+}
+
+body {
+
+	background-image: url("../images/bg_body.jpg");
+	height: auto;
+	width: auto;
+	font-family: Helvetica;
+}
+
+#wrapper {
+	min-width: 1000px;
+}
+
+nav {
+	background-image: url("../images/bg_wrapper.png");
+	height: 480px;
+	width: auto;
+	margin-bottom: -400px;
+}
+
+nav a {
+	color: #D3D3D3;
+	text-decoration: none;
+}
+
+nav ul {
+	text-align: center;
+	float: left;
+	margin-left: 40px;
+}
+
+nav ul li {
+	display: inline-block;
+	margin: 0 20px 0 20px;
+	list-style: none;
+	margin-top: 20px;
+
+}
+
+ul {
+	padding: 0;
+}
+
+/*#logo, #linkedin, #twitter, #facebook, #rss {
+	margin: 100px;
+}*/
+
+header {
+	display: inline-block;
+	width: 960px;
+	margin: 0 auto;
+}
+
+#busy-hands {
+	margin-left: 40px;
+}
+
+#logo {
+	background-image: url("../images/logo.png");
+	height: 54px;
+	width: 291px;
+	display: inline-block;
+	float: left;
+	margin: 20px 0 10px 0;
+}
+
+
+
+#rss {
+	background-image: url("../images/rss-grey.png");
+	height: 48px;
+	width: 48px;
+	display: inline-block;
+	float: right;
+	margin: 20px 10px 10px 0;
+}
+
+#rss:hover {
+	background-image: url("../images/rss.png");
+	height: 48px;
+	width: 48px;
+	display: inline-block;
+	float: right;
+	margin: 20px 10px 10px 0;
+}
+
+#facebook {
+	background-image: url("../images/facebook-grey.png");
+	height: 48px;
+	width: 48px;
+	display: inline-block;
+	float: right;
+	margin: 20px 10px 10px 0;
+}
+
+#facebook:hover {
+	background-image: url("../images/facebook.png");
+	height: 48px;
+	width: 48px;
+	display: inline-block;
+	float: right;
+	margin: 20px 10px 10px 0;
+}
+
+#twitter {
+	background-image: url("../images/twitter-grey.png");
+	height: 48px;
+	width: 48px;
+	display: inline-block;
+	float: right;
+	margin: 20px 10px 10px 0;
+}
+
+#twitter:hover {
+	background-image: url("../images/twitter.png");
+	height: 48px;
+	width: 48px;
+	display: inline-block;
+	float: right;
+	margin: 20px 10px 10px 0;
+}
+
+#linkedin {
+	background-image: url("../images/linkedin-grey.png");
+	height: 48px;
+	width: 48px;
+	display: inline-block;
+	float: right;
+	margin: 20px 10px 10px 0;
+}
+
+#linkedin:hover {
+	background-image: url("../images/linkedin.png");
+	height: 48px;
+	width: 48px;
+	display: inline-block;
+	float: right;
+	margin: 20px 10px 10px 0;
+}
+
+.photobanner {
+	background-image: url("../images/photobanner.png");
+	height: 370px;
+	width: 960px;
+/*	margin: 0 auto;*/
+}
+
+.imageshadow {
+	background-image: url("../images/shadow_slider.png");
+	height: 50px;
+	width: 956px;
+	margin: -16px;
+	margin-left: 40px;
+	margin-bottom: 5px;
+}
+
+#blurb {
+	background-image: url("../images/bg_blurb.jpg");
+	height: 80px;
+	width: 960px;
+	margin-left: 40px;
+	display: inline-block;
+	border: 1px inset #FFFFFF;
+	border-opacity: 0.4;
+	line-height: 1.5em;
+}
+#blurb p {
+	display: inline-block;
+	padding-left: 10px;
+}
+
+#button-blurb {
+	background-image: url("../images/button_blurb.png");
+	height: 50px;
+	width: 202px;
+	display: inline-block;
+	float: right;
+}
+
+#home-boxes {
+	display: inline-block;
+	width: 960px;
+	margin-left: 40px;
+	font-size: 12px;
+	line-height: 1.3em;
+}
+
+#home-boxes p {
+	width: 280px;
+}
+
+.home-box {
+	display: inline-block;
+	width: 310px;
+	margin-bottom: 20px;
+}
+
+#photo-column1 {
+	background-image: url("../images/photo_column1.jpg");
+	height:101px;
+	width: 274px;
+	border: 3px solid #D3D3D3;
+	margin-left: 0;
+}
+
+#photo-column2 {
+	background-image: url("../images/photo_column2.jpg");
+	height:101px;
+	width: 274px;
+	border: 3px solid #D3D3D3;
+	margin-left: 0;
+}
+
+#photo-column3 {
+	background-image: url("../images/photo_column3.jpg");
+	height:101px;
+	width: 274px;
+	border: 3px solid #D3D3D3;
+	margin-left: 0;
+}
+
+h2 {
+	font-weight: normal;
+}
+
+h3 {
+	color: white;
+	border-bottom: 1px solid gray;
+	font-weight: normal;
+}
+
+footer {
+	background-color: black;
+	color: gray;
+	padding-left: 40px;
+	height: 260px;
+ }
+
+#blogroll, #textwidget, #metawidget, #copyright, #companybottom {
+	display: inline-block;
+}
+
+#blogroll {
+	width: 200px;
+	height: 168px;
+	margin-right: 100px;
+}
+
+#blogroll li {
+	line-height: 1.5em;
+	border-bottom: 1px solid gray;
+}
+
+#textwidget {
+	width: 300px;
+	height: 168px;
+	margin-right: 20px;
+	vertical-align:top;
+}
+
+#metawidget {
+	width: 200px;
+	height: 168px;
+	vertical-align:top;
+}
+
+#metawidget li {
+	line-height: 1.5em;
+	border-bottom: 1px solid gray;
+}
+
+#copyright {
+	float: left;
+}
+
+#companybottom {
+	float: right;
+}
+
+li {
+	list-style: none;
+}
