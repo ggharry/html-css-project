@@ -1,0 +1,233 @@
+
+
+#container {
+      margin: 0 auto;
+    width: 960px;
+}
+
+#header {
+	color: gainsboro;
+	font-size: 16px;
+	font-family: Arial;
+	background-color: black;
+   width: 870px;
+    padding: 30px;
+    border: 15px white;
+    margin-bottom: 15px; 
+
+}
+
+#header2 {
+	color: white;
+	font-size: 14px;
+	font-family: Arial;
+	background-color: black;
+	font-weight: lighter: 
+   width: 320px;
+    padding: 12px;
+    border: 15px white;
+    margin-bottom: 15px; 
+}
+
+#background {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 400px;
+    background-color: whitesmoke;
+    opacity: 0.4; 
+     z-index:-1;
+
+    border-bottom: thick none white;
+}
+
+#photobanner {
+    display: block;
+    max-width:870px;
+    max-height:870px;
+    width: auto;
+    height: auto;
+    box-shadow: 15px 15px 100px gray;
+    margin-bottom: 30px; 
+}
+<!--     webkit-box-shadow: 0 8px 6px -6px black;
+    moz-box-shadow: 0 8px 6px -6px black;
+    box-shadow: 0 8px 6px -6px black; -->
+	
+/*the # is an ID selector. CAN ONLY BE USED ONCE?*/
+
+#current-weather {
+	color:orange;
+}
+
+#mid-box {
+	color: black;
+	/*border: solid green;*/
+	padding: 10px ; 
+	margin: 10px;
+	font-family: Arial;
+	font-size:16px;
+	font-weight: lighter;
+}
+
+/*this is a class selector. all stuff of this class will get these styles*/
+
+#headerrowwidth { 
+   width: 100px;
+}
+
+/*note: the social-media doesn't work yet*/;
+#social-media {
+  float: left; /* float the <li> elements inside #social-media element left */
+  background:url(../images/socialNav.png);
+  margin: 3px;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+/* social-media hover */
+#social-linked:hover {
+  background-position: 0px 0px; 
+}
+
+#social-twit:hover {
+  background-position: -60px 0px; 
+}
+
+#social-media .facebook:hover {
+  background-position: -120px 0px; 
+}
+
+#social-media .rss:hover {
+  background-position: -180px 0px; 
+}
+
+.threeimg {
+  padding:1px;
+   border:5px solid gainsboro;
+   background-color: white;
+}
+
+.threebox {
+    color: black;
+    font-size: 18px;
+    font-family: Arial;
+    font-weight: lighter: 
+ }
+
+.threeboxdesc {
+    color: black;
+    font-size: 12px;
+    font-family: Arial;
+    font-weight: lighter: 
+ }
+
+.read-more {
+	color: deepskyblue;    
+     font-family: Arial;
+     font-size: 12px;
+	}
+
+.threeboxtable {
+    margin-bottom: 20px;
+    }
+
+.footer {
+    color: gainsboro;
+    font-size: 14px;
+    font-family: Arial;
+    background-color: black;
+    font-weight: lighter;    
+    width: 870px;
+    padding: 12px;
+    border: 15px white;
+    margin-bottom: 15px; 
+}
+
+.logoimg {
+    float: right;
+    display: block;
+    max-width:40px;
+    max-height:40px;
+    width: auto;
+    height: auto;
+}
+
+.logoimg2 {
+    float: right;
+    max-width:400px;
+    max-height:400px;
+    width: auto;
+    height: auto;
+}
+
+.hboxtitle {
+}
+
+.footer-txt {
+    color: grey;
+    font-size: 12px;
+    font-family: Arial;
+/*    font-weight: lighter:*/ 
+ /*  width: 320px;
+    padding: 12px;
+    border: 15px white;
+    margin-bottom: 15px; */
+}
+	
+}
+.mammal {
+	background-color: lavender;
+	font-weight: bold;
+}
+
+.bird {
+	background-color: lightGray;
+	font-style: italic;
+}
+
+.fish {
+	background-color: lightYellow;
+	text-decoration: underline;
+}
+
+/*Grouping Selectors*/
+
+ul, ol {
+    text-align: left;
+    color: grey;
+}
+
+
+
+#mouse { color: grey;}
+
+#canary { color: orangeRed;}
+
+#penguin{ color: black;}
+
+#salmon{ color: salmon;}
+
+#cat{ color: sienna;}
+
+#goldfish{ color: gold;}
+
+#dog{ color: tan;}
+
+#sheep{ color: steelBlue;}
+
+#parakeet{ color: lime;}
+
+#tuna { color: purple;}
+
+.classSel {
+    background-color: red;
+    color: white;
+    }
+
+.classSel2 {
+    background-color: yellow;
+    color: white;
+    }
