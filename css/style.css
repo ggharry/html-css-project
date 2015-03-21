@@ -1,16 +1,20 @@
 
 
+#container {
+      margin: 0 auto;
+    width: 960px;
+}
+
 #header {
 	color: gainsboro;
 	font-size: 16px;
 	font-family: Arial;
 	background-color: black;
-	font-weight: lighter; 
    width: 870px;
     padding: 30px;
     border: 15px white;
     margin-bottom: 15px; 
-    
+
 }
 
 #header2 {
@@ -71,6 +75,33 @@
 
 #headerrowwidth { 
    width: 100px;
+}
+
+/*note: the social-media doesn't work yet*/;
+#social-media {
+  float: left; /* float the <li> elements inside #social-media element left */
+  background:url(../images/socialNav.png);
+  margin: 3px;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+/* social-media hover */
+#social-linked:hover {
+  background-position: 0px 0px; 
+}
+
+#social-twit:hover {
+  background-position: -60px 0px; 
+}
+
+#social-media .facebook:hover {
+  background-position: -120px 0px; 
+}
+
+#social-media .rss:hover {
+  background-position: -180px 0px; 
 }
 
 .threeimg {
@@ -169,11 +200,7 @@ ul, ol {
     color: grey;
 }
 
-#container {
-      display: block;
-      margin-left: 50px;
-    margin-right: auto;
-}
+
 
 #mouse { color: grey;}
 
